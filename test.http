@@ -1,0 +1,33 @@
+
+GET http://localhost:3300
+
+###
+
+POST http://localhost:3300
+Content-Type: application/json
+Accept: application/json
+
+{
+  "todo": "GOLANG"
+}
+
+###
+
+PUT  http://localhost:3300
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0,
+  "todo": "Phyton"
+}
+
+###
+
+DELETE   http://localhost:3300
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0
+}
